@@ -11,3 +11,7 @@ It is a static home page made using **HTML & CSS**.
 > ### The Screenshot of the site is attached here:-
 
 ![Project-3 ScreenShot:](SS7.png "Product home page")
+
+Time taken: 
+
+> ### Link to the project: [Product home page](https://aim-product-home-page.netlify.app/)
