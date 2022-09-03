@@ -211,3 +211,96 @@ img[alt="headphone"] {
     margin: 1em 8.8em;
     width: 40%;
 }
+
+
+/* Responsive */
+
+@media only screen and (max-device-width: 400px) {
+    body {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        font-size: 1rem;
+    }
+    nav {
+        margin-top: 2rem;
+        display: block;
+        height: fit-content;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    nav img[alt="logo"] {
+        display: block;
+        height: 1rem;
+        /* justify-content: center; */
+        align-items: left;
+    }
+    .nav-items {
+        display: block;
+        /* justify-content: center;
+        align-items: center; */
+        font-size: 1rem;
+    }
+    .nav-items h5 {
+        font-size: 1rem;
+    }
+    nav img[alt="actions"] {
+        height: 2em;
+    }
+    h1,
+    h3 {
+        font-size: 1.5rem;
+    }
+    .intro-section {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .sub-headlines {
+        font-size: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5rem;
+    }
+    .sub-headlines h5 {
+        position: none;
+    }
+    .action-btns {
+        position: relative;
+        left: 0rem;
+    }
+    .action-btn {
+        width: fit-content;
+        height: fit-content;
+        padding: 0.5rem;
+        font-size: 0.5rem;
+    }
+    .right-section {
+        height: 50%;
+        width: 80%;
+        padding: .5rem;
+        justify-content: center;
+    }
+    img[alt="discount"],
+    .discount-content h1,
+    .discount-content h4 {
+        display: hidden;
+        font-size: 0.5rem;
+        right: 55%;
+        top: 60%;
+    }
+    .discount-content {
+        right: 55%;
+        top: 66%;
+        padding: 0;
+    }
+    img[alt="headphone"] {
+        height: 40vh;
+        width: 10rem;
+    }
+}
